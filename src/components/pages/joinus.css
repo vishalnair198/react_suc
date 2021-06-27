@@ -1,0 +1,92 @@
+.joinus{
+    width: 110%;
+    height: 100vh;
+    margin-top: -10%;
+    margin-left: -10%;
+    background-color:rgba(0, 0, 0, 0.50);
+}
+.joinus p{
+    color: rgb(5, 5, 5);
+}
+.rcform{
+    width: 250px;
+    margin-left: 22%;
+    margin-top: 1%;
+    background-color:  rgba(255, 255, 255, 0.4);
+    border-radius: 20px;
+    padding: 1.5rem;
+}
+.container{
+    margin-top: 10%;
+    margin-left: 35%;
+  background: rgba(255, 255, 255, 0.4);
+  overflow: hidden;
+  height: 110vh;
+  width: 40%;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.50);
+  border-top: 1px solid rgba(255, 255, 255, 0.6);
+  border-left: 1px solid rgba(255, 255, 255, 0.6);
+  border-radius: 20px;
+  position: relative;
+}
+.d{
+    width: 140px;
+    height: 150px;
+    margin-top: 5%;
+    margin-left: 70%;
+    position: absolute;
+}
+.hand{
+    width: 140px;
+    height: 140px;
+    margin-top: 38%;
+    margin-left: 70%;
+    position: absolute;
+}
+.hor{
+    width: 150px;
+    height: 150px;
+    margin-top: 65%;
+    margin-left: 70%;
+    position: absolute;
+}
+.rbc{
+    width: 140px;
+    height: 150px;
+    margin-top: 90%;
+    margin-left: 70%;
+    position: absolute;
+}
+
+.wings{
+    width: 200px;
+    height: 180px;
+    margin-top: 115%;
+    margin-left: 65%;
+    position: absolute;
+}
+
+.tag{
+    padding: 5px 0;
+    font-size: 25px;
+}
+input, textarea{
+    width: 100%;
+    background-color: rgb(18, 82, 82,0.3);
+    border: none;
+    padding: 0.5rem;
+    border-radius: 20px;
+}
+.submit-btn{
+    background-color: bisque;
+    border: none;
+    width: 100%;
+    padding: 1rem;
+    margin-top: 1rem;
+    color: rgb(6, 16, 26);
+    cursor: pointer;
+    border-radius: 20px;
+}
+.submit-btn:hover{
+    background: linear-gradient(to right,rgb(168, 56, 75),rgb(226, 56, 56),rgb(12, 95, 204));
+}

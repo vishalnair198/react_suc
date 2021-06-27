@@ -1,0 +1,122 @@
+.home{
+    background-repeat: no-repeat;
+    background-size: cover;
+   animation: slide 40s  ease-in-out infinite ;
+   background-position: center;
+   width: 100%;
+   height: 100vh; 
+  }
+  .glass{
+    position: relative;
+    height: 45vh;
+    width: 40%;
+    background: rgba(255, 255, 255, 0.4);
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.50);
+    border-top: 1px solid rgba(255, 255, 255, 0.6);
+    border-left: 1px solid rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(8px);
+    z-index: 12;
+    border-radius: 20px;
+    top: 120px;
+    
+    margin: auto;
+    animation:  faded 8s forwards;
+    
+  }
+  .landing {
+    
+    display: flex;
+    justify-content: center;
+   
+  left: 25%;
+  top: 1%;
+  }
+  .logo{
+    position: absolute;
+    width: 200px;
+    height: 210px;
+    top: 25%;
+    left: 60%;
+    animation: rotatelogo 12s linear ;
+  }
+  h1 {
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    color: #be1564;
+    transform: translate(-50%, -50%);
+    animation:  fade 8s forwards;
+    text-indent: 10px;
+    font-size: 30px;
+  }
+  h5{
+    position: absolute;
+    top: 40%;
+    left: 26.5%;
+    color: #be1564;
+    transform: translate(-50%, -50%);
+    animation:  fade 8s forwards;
+    text-indent: 10px;
+    font-size: 30px;
+  }
+  h6{
+    position: absolute;
+    top: 48%;
+    left: 10%;
+    color: #be1564;
+    transform: translate(-50%, -50%);
+    animation:  fade 6s forwards;
+    text-indent: 10px;
+    font-size: 30px;
+  }
+  @keyframes slide {
+    0%,100%{
+        opacity: 0.967;
+      background-image: url('../../assets/back1\ c.jpg');  
+    }
+    25%{
+        background-image: url('../../assets/back2\ c.jpg');
+    }
+    35%{
+      background-image: url('../../assets/back3\ c.jpg');
+    }
+    50%{
+        background-image: url('../../assets/back4\ c.jpg');
+    }
+    60%{
+      background-image: url('../../assets/back5\ c.jpg');
+    }
+    70%{
+        background-image: url('../../assets/back6\ c.jpg');
+    }
+    80%{
+        background-image: url('../../assets/back7\ c.jpg');
+    }
+    90%{
+      background-image: url('../../assets/back8\ c.jpg');
+    }
+  }
+  @keyframes fade{
+    0%{
+      opacity: 0;
+      transform: scale3d(.75,.75,1);
+    }
+    100%{
+      opacity: 1;
+      transform: scale3d(1,1,1);
+    }
+  }
+  @keyframes rotatelogo{
+    0%{
+      opacity: 0;
+      ;}
+    50%{
+      opacity: .02;
+    }
+    75%{
+      opacity: .5;
+    }
+    100%{ 
+      opacity: 1;
+      transform: rotate(360deg);}
+  }
