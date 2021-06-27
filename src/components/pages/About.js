@@ -5,7 +5,7 @@ import "aos/dist/aos.css";
 import { Link } from 'react-router-dom';
 import Navbar from '../Navbar';
 import {motion} from 'framer-motion';
-import Particles from 'react-particles-js';
+
 
 function About(){
 
@@ -201,29 +201,8 @@ function About(){
                 </div>
             </section>
             <section id="sectionthree" class="context">
-            <Particles
-  style={{ position: "absolute" }}
-  height="400%"
-  width="100%"
-  params={{
-    particles: {
-      color: {
-        value: "#FF0833"
-      },
-      line_linked: {
-        color: {
-          value: "#000000"
-        }
-      },
-      number: {
-        value: 50
-      },
-      size: {
-        value: 3
-      }
-    }
-  }}
-/>
+           
+            
             </section>
 
         </div>
